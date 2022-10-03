@@ -1,0 +1,170 @@
+h1{
+    font-size:70px;
+}
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+font-family: 'Source Sans Pro', sans-serif;
+background: beige;
+}
+
+nav{
+    background: beige;
+    height:80px;
+    width:100%;
+
+}
+label.logo{
+    color:rgb(0, 0, 0);
+    font-size:35px;
+    line-height: 80px;
+    padding:0 100px;
+    font-weight: bold;
+}
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display:inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:rgb(0, 0, 0);
+    font-size :17px;
+    padding:10px 50px;
+    border-radius: 50px;
+    text-transform:uppercase;
+
+}
+a:hover{
+    background:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    height:400px;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.829);
+    padding:20px;
+    border-radius: 10px 100px;
+    box-shadow: 20px 10px rgb(255, 255, 234);
+    position:absolute;;
+}
+.square {
+    border-style:outset;
+    margin-top: -700px;
+    height:auto;
+    width: 700px;
+    background-color: rgb(255, 255, 234);
+    position: absolute;
+    margin-left:580px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+table,
+table td {
+border: 0px solid #cccccc;
+font-family: 'Source Sans Pro', sans-serif;
+padding:0 20px;
+}
+
+td {
+height: 80px;
+font-family: 'Source Sans Pro', sans-serif;
+width: 400px;
+text-align: center;
+padding-bottom: 40px;
+line-height: 1.5;
+} 
+
+footer{
+    background-color: rgb(56, 56, 56);
+    color:white;
+    margin-top:600px;
+    text-align: left;
+}
+.kontakt td{
+    text-align: left;
+}
+.kontakt table{
+    color:white;
+    position:center;
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+/*
+.bilder{
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+/*
+.knapp1{ 
+    background-color: black;
+    color:rgb(255, 255, 255);
+    font-size :17px;
+    padding:10px 50px;
+    border-radius: 50px;
+    border-style: none;
+    display:inline-block;
+}
+
+.knapp2{ 
+    background-color: black;
+    color:rgb(255, 255, 255);
+    font-size :17px;
+    padding:10px 50px;
+    border-radius: 50px;
+    border-style: none;
+}
+.knapp3{ 
+    background-color: black;
+    color:rgb(255, 255, 255);
+    font-size :17px;
+    padding:10px 50px;
+    border-radius: 50px;
+    border-style: none;
+}
+.knapp1:hover{
+    background: rgb(44, 43, 43);
+    color:white;
+    display:inline-block;
+}
+.knapp2:hover{
+    background: rgb(44, 43, 43);
+    color:white;
+}
+.knapp3:hover{
+    background: rgb(44, 43, 43);
+    color:white;
+}
+*/
+/*
+textarea{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+}
+*/
